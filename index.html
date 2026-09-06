@@ -1,11 +1,909 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>YatraNova | Smart Tourism</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
-    
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#" class="logo">
+            <div class="logo-icon">
+                <i class="fa-solid fa-compass"></i>
+            </div>
+
+            <div class="logo-text">
+                <span>Yatra</span>Nova
+            </div>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#explore">Explore</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#business">For Businesses</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="language-btn">
+                <i class="fa-solid fa-globe"></i>
+                EN
+            </button>
+
+            <button class="login-btn">
+                Sign In
+            </button>
+
+            <button class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <div class="hero-badge">
+            <i class="fa-solid fa-sparkles"></i>
+            AI-Powered Smart Tourism
+        </div>
+
+        <h1>
+            Don't just visit a place.
+            <span>Discover your journey.</span>
+        </h1>
+
+        <p>
+            YatraNova creates personalized travel experiences based on
+            your budget, interests, time and preferences — while helping
+            you discover hidden tourism opportunities.
+        </p>
+
+        <!-- Search / Planning Card -->
+
+        <div class="planner-card">
+
+            <div class="planner-header">
+                <div>
+                    <h3>Plan your perfect trip</h3>
+                    <p>Tell us what you're looking for</p>
+                </div>
+
+                <div class="ai-status">
+                    <span class="status-dot"></span>
+                    AI Ready
+                </div>
+            </div>
+
+            <div class="planner-grid">
+
+                <div class="input-box">
+                    <label>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Destination
+                    </label>
+
+                    <input
+                        type="text"
+                        placeholder="Where do you want to go?"
+                    >
+                </div>
+
+
+                <div class="input-box">
+                    <label>
+                        <i class="fa-solid fa-wallet"></i>
+                        Budget
+                    </label>
+
+                    <select>
+                        <option>Select budget</option>
+                        <option>Under ₹5,000</option>
+                        <option>₹5,000 - ₹10,000</option>
+                        <option>₹10,000 - ₹25,000</option>
+                        <option>₹25,000+</option>
+                    </select>
+                </div>
+
+
+                <div class="input-box">
+                    <label>
+                        <i class="fa-regular fa-calendar"></i>
+                        Duration
+                    </label>
+
+                    <select>
+                        <option>Select days</option>
+                        <option>1 Day</option>
+                        <option>2 Days</option>
+                        <option>3 Days</option>
+                        <option>4-7 Days</option>
+                        <option>7+ Days</option>
+                    </select>
+                </div>
+
+
+                <button class="plan-btn">
+                    <span>Plan My Trip</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+            <div class="interest-row">
+
+                <span class="interest-title">
+                    I'm interested in:
+                </span>
+
+                <button class="interest active">
+                    <i class="fa-solid fa-landmark"></i>
+                    Heritage
+                </button>
+
+                <button class="interest">
+                    <i class="fa-solid fa-mountain-sun"></i>
+                    Nature
+                </button>
+
+                <button class="interest">
+                    <i class="fa-solid fa-utensils"></i>
+                    Food
+                </button>
+
+                <button class="interest">
+                    <i class="fa-solid fa-people-group"></i>
+                    Culture
+                </button>
+
+                <button class="interest">
+                    <i class="fa-solid fa-person-hiking"></i>
+                    Adventure
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="hero-trust">
+
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                Verified local experiences
+            </div>
+
+            <div>
+                <i class="fa-solid fa-route"></i>
+                Personalized itineraries
+            </div>
+
+            <div>
+                <i class="fa-solid fa-leaf"></i>
+                Sustainable discovery
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<section class="stats-section">
+
+    <div class="stats-container">
+
+        <div class="stat">
+            <strong>500+</strong>
+            <span>Destinations</span>
+        </div>
+
+        <div class="stat">
+            <strong>2,000+</strong>
+            <span>Local Experiences</span>
+        </div>
+
+        <div class="stat">
+            <strong>1,200+</strong>
+            <span>Local Businesses</span>
+        </div>
+
+        <div class="stat">
+            <strong>4.8/5</strong>
+            <span>Traveller Rating</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EXPLORE ================= -->
+
+<section class="section explore-section" id="explore">
+
+    <div class="section-heading">
+
+        <div>
+            <span class="eyebrow">EXPLORE SMARTER</span>
+
+            <h2>
+                Discover places
+                <span>worth exploring</span>
+            </h2>
+        </div>
+
+        <a href="#" class="view-all">
+            View all
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+
+    <div class="destination-grid">
+
+        <!-- CARD 1 -->
+
+        <article class="destination-card">
+
+            <div class="destination-image">
+                <img
+                    src="https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1000&q=80"
+                    alt="Jaipur"
+                >
+
+                <div class="score-badge">
+                    <i class="fa-solid fa-star"></i>
+                    94
+                </div>
+
+                <button class="save-btn">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+            </div>
+
+            <div class="destination-info">
+
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Rajasthan, India
+                </div>
+
+                <h3>Jaipur Heritage Trail</h3>
+
+                <p>
+                    Explore historic architecture, local culture
+                    and authentic experiences.
+                </p>
+
+                <div class="card-bottom">
+
+                    <div>
+                        <span class="small-label">Opportunity Score</span>
+                        <strong>94/100</strong>
+                    </div>
+
+                    <span class="crowd low">
+                        Low Crowd
+                    </span>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- CARD 2 -->
+
+        <article class="destination-card">
+
+            <div class="destination-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80"
+                    alt="Agra"
+                >
+
+                <div class="score-badge">
+                    <i class="fa-solid fa-star"></i>
+                    89
+                </div>
+
+                <button class="save-btn">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="destination-info">
+
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Uttar Pradesh, India
+                </div>
+
+                <h3>Agra Beyond the Taj</h3>
+
+                <p>
+                    Discover local heritage, crafts and experiences
+                    beyond the famous landmark.
+                </p>
+
+                <div class="card-bottom">
+
+                    <div>
+                        <span class="small-label">Opportunity Score</span>
+                        <strong>89/100</strong>
+                    </div>
+
+                    <span class="crowd medium">
+                        Medium Crowd
+                    </span>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- CARD 3 -->
+
+        <article class="destination-card">
+
+            <div class="destination-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1470214304380-aadaedcfff1b?auto=format&fit=crop&w=1000&q=80"
+                    alt="Himachal Pradesh"
+                >
+
+                <div class="score-badge">
+                    <i class="fa-solid fa-star"></i>
+                    92
+                </div>
+
+                <button class="save-btn">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="destination-info">
+
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Himachal Pradesh, India
+                </div>
+
+                <h3>Hidden Himalayan Escape</h3>
+
+                <p>
+                    Peaceful mountain experiences with local stays
+                    and nature trails.
+                </p>
+
+                <div class="card-bottom">
+
+                    <div>
+                        <span class="small-label">Opportunity Score</span>
+                        <strong>92/100</strong>
+                    </div>
+
+                    <span class="crowd low">
+                        Low Crowd
+                    </span>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= OPPORTUNITY ENGINE ================= -->
+
+<section class="opportunity-section">
+
+    <div class="opportunity-container">
+
+        <div class="opportunity-content">
+
+            <span class="eyebrow">OUR DIFFERENCE</span>
+
+            <h2>
+                More than a travel
+                recommendation.
+            </h2>
+
+            <p>
+                YatraNova uses a Tourism Opportunity Engine to evaluate
+                destinations using multiple factors instead of simply
+                recommending the most popular place.
+            </p>
+
+            <div class="feature-list">
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-user-check"></i>
+                    </div>
+
+                    <div>
+                        <h4>Personalized for you</h4>
+                        <p>
+                            Recommendations based on your interests,
+                            budget and available time.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+
+                    <div>
+                        <h4>Opportunity scoring</h4>
+                        <p>
+                            Compare destinations using cost, crowd,
+                            preference match and local opportunities.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+
+                    <div>
+                        <h4>Support local tourism</h4>
+                        <p>
+                            Connect travellers with hotels, guides,
+                            homestays and local experiences.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SCORE CARD -->
+
+        <div class="score-demo">
+
+            <div class="score-header">
+                <div>
+                    <span>TOURISM OPPORTUNITY</span>
+                    <h3>Example Recommendation</h3>
+                </div>
+
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+
+
+            <div class="score-place">
+
+                <div class="mini-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=500&q=80"
+                        alt="Travel destination"
+                    >
+                </div>
+
+                <div>
+                    <h3>Hidden Heritage Trail</h3>
+                    <p>
+                        Near your selected destination
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="big-score">
+
+                <div class="score-circle">
+                    <span>92</span>
+                    <small>/100</small>
+                </div>
+
+                <div>
+                    <strong>Excellent Match</strong>
+                    <p>Based on your preferences</p>
+                </div>
+
+            </div>
+
+
+            <div class="score-bars">
+
+                <div class="score-row">
+                    <span>Interest Match</span>
+                    <div class="bar">
+                        <div style="width:92%"></div>
+                    </div>
+                    <b>92%</b>
+                </div>
+
+                <div class="score-row">
+                    <span>Budget Fit</span>
+                    <div class="bar">
+                        <div style="width:87%"></div>
+                    </div>
+                    <b>87%</b>
+                </div>
+
+                <div class="score-row">
+                    <span>Crowd Suitability</span>
+                    <div class="bar">
+                        <div style="width:95%"></div>
+                    </div>
+                    <b>95%</b>
+                </div>
+
+                <div class="score-row">
+                    <span>Local Opportunity</span>
+                    <div class="bar">
+                        <div style="width:90%"></div>
+                    </div>
+                    <b>90%</b>
+                </div>
+
+            </div>
+
+            <button class="view-itinerary">
+                View Recommended Itinerary
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= HOW IT WORKS ================= -->
+
+<section class="section how-section" id="how-it-works">
+
+    <div class="center-heading">
+
+        <span class="eyebrow">HOW IT WORKS</span>
+
+        <h2>
+            Your journey,
+            <span>simplified.</span>
+        </h2>
+
+        <p>
+            From preferences to a personalized travel plan
+            in a few simple steps.
+        </p>
+
+    </div>
+
+
+    <div class="steps">
+
+        <div class="step">
+
+            <div class="step-number">01</div>
+
+            <div class="step-icon">
+                <i class="fa-solid fa-sliders"></i>
+            </div>
+
+            <h3>Tell us what you want</h3>
+
+            <p>
+                Enter your destination, budget, time and
+                travel interests.
+            </p>
+
+        </div>
+
+
+        <div class="step-line"></div>
+
+
+        <div class="step">
+
+            <div class="step-number">02</div>
+
+            <div class="step-icon">
+                <i class="fa-solid fa-brain"></i>
+            </div>
+
+            <h3>We find opportunities</h3>
+
+            <p>
+                Our recommendation engine evaluates
+                destinations and experiences.
+            </p>
+
+        </div>
+
+
+        <div class="step-line"></div>
+
+
+        <div class="step">
+
+            <div class="step-number">03</div>
+
+            <div class="step-icon">
+                <i class="fa-solid fa-route"></i>
+            </div>
+
+            <h3>Get your journey</h3>
+
+            <p>
+                Receive a personalized itinerary with
+                places, activities and local options.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= BUSINESS ================= -->
+
+<section class="business-section" id="business">
+
+    <div class="business-container">
+
+        <div class="business-content">
+
+            <span class="eyebrow">FOR LOCAL BUSINESSES</span>
+
+            <h2>
+                Bring more travellers
+                to your doorstep.
+            </h2>
+
+            <p>
+                YatraNova helps hotels, homestays, guides,
+                restaurants and local experience providers
+                become discoverable to the right travellers.
+            </p>
+
+            <div class="business-points">
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Verified business profiles
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Targeted traveller discovery
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Tourism demand insights
+                </div>
+
+            </div>
+
+            <button class="business-btn">
+                Join YatraNova
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <div class="business-visual">
+
+            <div class="business-card">
+
+                <div class="business-card-top">
+                    <span class="verified">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Verified
+                    </span>
+
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <div class="business-logo">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+
+                <h3>Local Heritage Homestay</h3>
+
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Rajasthan, India
+                </p>
+
+                <div class="business-rating">
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        4.8
+                    </span>
+
+                    <span>126 reviews</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta-section">
+
+    <div class="cta-content">
+
+        <div class="cta-icon">
+            <i class="fa-solid fa-paper-plane"></i>
+        </div>
+
+        <h2>
+            Your next adventure
+            starts here.
+        </h2>
+
+        <p>
+            Let YatraNova turn your travel preferences
+            into a journey worth remembering.
+        </p>
+
+        <button class="cta-btn">
+            Start Planning
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-compass"></i>
+                </div>
+
+                <div class="logo-text">
+                    <span>Yatra</span>Nova
+                </div>
+            </a>
+
+            <p>
+                Smarter tourism. Better journeys.
+                Stronger local communities.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Explore</h4>
+
+            <a href="#">Destinations</a>
+            <a href="#">Experiences</a>
+            <a href="#">Itineraries</a>
+            <a href="#">Local Businesses</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Company</h4>
+
+            <a href="#">About</a>
+            <a href="#">How it works</a>
+            <a href="#">For Businesses</a>
+            <a href="#">Contact</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Connect</h4>
+
+            <div class="socials">
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 YatraNova. SIH 2026 Student Innovation Project.
+        </span>
+
+        <span>
+            Made for smarter tourism.
+        </span>
+
+    </div>
+
+</footer>
+
 </body>
 </html>
