@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
             crowd: "Medium",
             distance: 0,
             baseScore: 88,
-            image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1000&q=80"
+            image: "D:\YatriNovaSihProject\yatriNova Sih Project\image\annie-spratt-slTVVuk7hZU-unsplash.jpg"
         },
 
         {
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
             crowd: "Medium",
             distance: 0,
             baseScore: 84,
-            image: "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80"
+            image: "D:\YatriNovaSihProject\yatriNova Sih Project\image\derek-story-ws208Ry7fbk-unsplash.jpg"
         },
 
         {
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
             crowd: "Low",
             distance: 0,
             baseScore: 90,
-            image: "https://images.unsplash.com/photo-1470214304380-aadaedcfff1b?auto=format&fit=crop&w=1000&q=80"
+            image: "D:\YatriNovaSihProject\yatriNova Sih Project\image\sukant-sharma-b6rs6V_9lH4-unsplash.jpg "
         },
 
         {
